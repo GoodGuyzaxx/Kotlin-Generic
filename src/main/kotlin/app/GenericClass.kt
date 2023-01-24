@@ -3,10 +3,11 @@ package app
 import data.MyData
 
 fun main() {
-    val myDataString: MyData<String,Int> = MyData("zaxx",100)
-    myDataString.printlnDta()
+    val myDataFirst: MyData<String,Int> = MyData("zaxx",100)
+    myDataFirst.printlnDta()
 
 
-    val myDataInt: MyData<Int, String> = MyData(100, "zaxx")
-    myDataInt.printlnDta()
+    val myDataSecond: MyData<Int, Char> = MyData(100,'A')
+    myDataSecond.printlnDta()
+
 }
