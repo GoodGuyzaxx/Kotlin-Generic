@@ -7,7 +7,7 @@ fun Data<String>.print(){
     println(data)
 }
 
-fun Data<Int>.prtinInt(){
+fun Data<Int>.printInt(){
     val data: Int = this.Data
     println(data)
 }
@@ -16,6 +16,6 @@ fun main() {
     val data1 = Data(1)
     val data2 = Data("zax")
 
-    data1.prtinInt()
+    data1.printInt()
     data2.print()
 }
